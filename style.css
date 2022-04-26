@@ -1,0 +1,53 @@
+body {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.container {
+  width: 700px;
+  margin: 100px auto;
+}
+
+button {
+  padding: 3px;
+  font-weight: bold;
+}
+
+#photos {
+  margin-top: 20px;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+
+img {
+  width: 100px;
+}
+
+#spinny {
+  background-image: url("Ripple-1s-200px.svg"); /* from https://loading.io/ */
+  width: 200px;
+  height: 200px;
+}
+
+p {
+  margin: 0;
+}
+
+#cameras {
+  margin-bottom: 20px;
+}
+
+#photo-date {
+  margin-bottom: 20px;
+}

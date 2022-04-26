@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src = "endpoint.js"></script>
+    <script src = "index.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <p>Cameras:</p>
+      <div id="cameras">
+        <div>
+          <input type="radio" id="fhaz" name="camera" value="fhaz" checked />
+          <label for="fhaz">Front Hazard Avoidance</label>
+        </div>
+
+        <div>
+          <input type="radio" id="rhaz" name="camera" value="rhaz" />
+          <label for="rhaz">Rear Hazard Avoidance</label>
+        </div>
+
+        <div>
+          <input type="radio" id="mast" name="camera" value="mast" />
+          <label for="mast">Mast</label>
+        </div>
+
+        <div>
+          <input type="radio" id="chemcam" name="camera" value="chemcam" />
+          <label for="chemcam">Chemistry and Camera Complex</label>
+        </div>
+
+        <div>
+          <input type="radio" id="mahli" name="camera" value="mahli" />
+          <label for="mahli">Mars Hand Lens Imager</label>
+        </div>
+
+        <div>
+          <input type="radio" id="mardi" name="camera" value="mardi" />
+          <label for="mardi">Mars Descent Imager</label>
+        </div>
+
+        <div>
+          <input type="radio" id="navcam" name="camera" value="navcam" />
+          <label for="navcam">Navigation</label>
+        </div>
+      </div>
+
+      <label for="photo-date">Photo date:</label>
+      <input
+        type="date"
+        id="photo-date"
+        name="photo-date"
+        value="2022-01-01"
+        min="2015-01-01"
+        max="2022-03-31"
+      />
+      <br />
+      <button>Display Photos</button>
+      <div id="photos" class="hidden"></div>
+      <div id="spinny" class="hidden"></div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
