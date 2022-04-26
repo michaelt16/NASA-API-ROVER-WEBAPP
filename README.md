@@ -2,6 +2,10 @@
 
 **2022-02-28 (M)**
 
+## How to view
+
+In order to view this application, please pull the following and view index.html
+
 ## Overview
 
 This tutorial will give you some more practice using fetch (and the resulting funky Promises). We're going to be grabbing [Mars Curiosity rover](https://en.wikipedia.org/wiki/Curiosity_(rover)) images. That sucker landed up there in 2012...and is still operational, doodling around and checking stuff out. That's pretty neat.
